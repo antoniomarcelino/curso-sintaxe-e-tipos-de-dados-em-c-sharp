@@ -9,6 +9,7 @@ namespace aula_1_sintaxe_e_indentacao.Models
     {
         public string Nome { get; set; }
         public int Idade { get; set; }
+        public string NomeRepresentanteLegalDaPessoaFisica { get; set; }
 
         public void Apresentar()
         {
