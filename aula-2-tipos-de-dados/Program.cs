@@ -1,14 +1,18 @@
 ﻿using aula_1_sintaxe_e_indentacao.Models;
 
-string apresentacao = "Olá, seja bem vindo";
-int quantidade = 1;
-Console.WriteLine("Valor da variável quantidade: " + quantidade);
+DateTime dataAtual = DateTime.Now.AddDays(1);
+Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 
-quantidade = 10;
-Console.WriteLine("Valor da variável quantidade: " + quantidade);
-double altura = 1.80;
-decimal preco = 1.80M;
-bool condicao = true;
+
+// string apresentacao = "Olá, seja bem vindo";
+// int quantidade = 1;
+// Console.WriteLine("Valor da variável quantidade: " + quantidade);
+
+// quantidade = 10;
+// Console.WriteLine("Valor da variável quantidade: " + quantidade);
+// double altura = 1.80;
+// decimal preco = 1.80M;
+// bool condicao = true;
 // Console.WriteLine(apresentacao);
 // Console.WriteLine("Valor da variável quantidade: " + quantidade);
 // Console.WriteLine("Valor da variável altura: " + altura.ToString("0.00"));
